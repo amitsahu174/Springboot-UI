@@ -32,3 +32,9 @@ This is what the service should respond (no comments needed):
   * /src/main/resources/transform.xsl: blank for creating XSLT-transformer
   * DemoTransformer class can be used for transforming.
   * https://spring.io/guides/tutorials/rest/
+
+How To USE 
+
+Main Page URL:-http://localhost:8080/xml-dataEntry
+Enter your input data and click on convert after convert your output data will visible in same screen
+API:- http://localhost:8080/api/process-xml
