@@ -1,0 +1,16 @@
+<root>
+    <id>123</id>
+    <batch>7</batch>
+    <rows>
+        <row>
+        
+            <description>text1</description>
+        </row>
+        <row>
+            <description>text2</description>
+        </row>
+        <row>
+            <description>text3</description>
+        </row>
+    </rows>
+</root>
