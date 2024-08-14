@@ -16,8 +16,13 @@ public class APIController {
     @PostMapping("/api/process-xml")
     public String postMethodName(@RequestBody String xmlData) {
         // TODO: process POST request
-        var result = transform(xmlData);
-        return result;
+        if (xmlData == null || xmlData.isEmpty()) {
+            return "Please provide correct xml data";
+        } else {
+            var result = transform(xmlData);
+            return result;
+        }
+
     }
 
     public String transform(String message) {

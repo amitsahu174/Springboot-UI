@@ -16,7 +16,7 @@ public class XmlParser {
         List<RowData> rows = new ArrayList<>();
 
         // Load XML file from resources
-        ClassPathResource resource = new ClassPathResource("transform.xml");
+        ClassPathResource resource = new ClassPathResource("data.xml");
         InputStream xmlInputStream = resource.getInputStream();
 
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
